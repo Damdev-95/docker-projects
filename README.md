@@ -16,6 +16,11 @@
 - Try: `docker` and `docker contaienr ls`
 
 
+* Help on creating containers 
+
+`docker create --help `
+
+
 # -- Run a Ubuntu Container and a Container Shell --
 
 In this video, we created our first Docker container, and ran a shell within it. Below are the main commands that we used.
@@ -37,3 +42,4 @@ In this video, we created our first Docker container, and ran a shell within it.
 * List out containers (whether or not they’re running)
 - `docker container ls -a`
 
+![image](https://user-images.githubusercontent.com/71001536/174623832-9e22162f-807e-43bb-b5e3-d2f9502994c7.png)
