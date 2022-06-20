@@ -68,9 +68,10 @@ In this video, we created our first Docker container, and ran a shell within it.
 - Place contents to be served into the `display` directory.
 - Create a Dockerfile at the root of the project with the following content:
 https://github.com/15Dkatz/docker-guides/blob/master/serve/Dockerfile
-- Build the image: `docker build . -t docker/serve`
+- Build the image: 
+`docker build . -t docker/serve`
 - Run a container with the image, and map the host’s 3001 port to the container’s 5000 port: 
 `docker run --name=serve -p=3001:5000 docker/serve`
-- visit http://localhost:5000 in a browser.
+- visit http://localhost:5000 in a browser
 
 
