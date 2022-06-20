@@ -55,4 +55,8 @@ In this video, we created our first Docker container, and ran a shell within it.
 - `docker rm foo`
 * Force remove a container (stop and remove in one step):
 - `docker rm -f foo`
+* - Remove all containers:
+`docker container ls -aq | xargs docker container rm`
+* -Remove all images:
+`docker image ls -aq | xargs docker rmi -f`
 
