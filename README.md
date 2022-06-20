@@ -43,3 +43,16 @@ In this video, we created our first Docker container, and ran a shell within it.
 - `docker container ls -a`
 
 ![image](https://user-images.githubusercontent.com/71001536/174623832-9e22162f-807e-43bb-b5e3-d2f9502994c7.png)
+
+* Containers can be created, run, started and attached to with one step using `docker run.` We should also remove containers when we finish using them. Below are the main commands we went over:
+
+* Create, start, run, and attach to a container in one step:
+- `docker run --name=bar -it ubuntu bash`
+
+* Stop a container:
+- `docker stop foo`
+* Remove a container:
+- `docker rm foo`
+* Force remove a container (stop and remove in one step):
+- `docker rm -f foo`
+
